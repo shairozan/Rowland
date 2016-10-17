@@ -1,6 +1,8 @@
 # Rowland
 
-Rowland is an implementation of [Sails](http://sailsjs.org) specifically aimed at being a PDF Stamping micro service. Rowland accepts two things in a multi-part form post:
+Rowland is an implementation of [Sails](http://sailsjs.org) specifically aimed at being a PDF Stamping micro service. To clarify, if you have a PDF with defined form fields, Rowland can populate them and raster them back into a filled PDF. It's great for Invoice generation, Sales Orders, etc. 
+
+Rowland accepts two things in a multi-part form post:
 
 1. A JSON structure indiciating the key-value pairs (name : value) of the fields in the PDF
 2. The PDF that should be populated
