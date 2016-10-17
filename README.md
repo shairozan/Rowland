@@ -28,4 +28,4 @@ $ npm install
 sails lift
 ```
 
-Refer to sails.js' documentation on how to configure SSL / the framework's general functionality if you're looking at configuring it differently. If you're just interested in running the application itself, Docker images are being created
+This will start the application on HTTP port 1337. Posts are done to the root of the server itself. No other routes needed. Please refer to sails.js' documentation on how to configure SSL / the framework's general functionality if you're looking at configuring it differently. If you're just interested in running the application itself, Docker images are being created
