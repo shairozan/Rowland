@@ -10,26 +10,20 @@ This way the application never needs to be hardcoded with files. You just pass i
 The application gets its name from Rowland Hill, the individual credited with creating the postage stamp.
 
 # Setup
-1. First thing is to require the system libraries required for the PDF stamping NPM components. You need to setup the environment per pdf-fill-form's information:
-
-On ubuntu 14.04 and 16.04, you can perform the below
-```
+1. First thing is to require the system libraries required for the PDF stamping NPM components. You need to setup the environment per pdf-fill-form's information On ubuntu 14.04 and 16.04, you can perform the below```
 $ sudo apt-get install libpoppler-qt4-dev libcairo2-dev
 $ npm install pdf-fill-form
 ```
 
-2. Install Sails Globally
-```
+2. Install Sails Globally```
 $ sudo npm -g install sails
 ```
 
-3. Navigate to the Rowland application directory (Where you'll find packages.json) and install the packages
-```
+3. Navigate to the Rowland application directory (Where you'll find packages.json) and install the packages```
 $ npm install
 ```
 
-4. In the Rowland directory, start sails!
-```
+4. In the Rowland directory, start sails!```
 sails lift
 ```
 
