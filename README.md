@@ -7,6 +7,8 @@ Rowland is an implementation of [Sails](http://sailsjs.org) specifically aimed a
 
 This way the application never needs to be hardcoded with files. You just pass it both the document to be filled in, the values to fill it in with, and it responds with the populated PDF. Relies on the pdf-fill-form PDF package which contains the GPL poppler library and the LGPL QT development libraries. 
 
+The application gets its name from Rowland Hill, the individual credited with creating the postage stamp.
+
 # Setup
 
 Before you can use the PDF stamping component, you need to setup the environment per pdf-fill-form's information:
