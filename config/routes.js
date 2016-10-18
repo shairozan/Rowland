@@ -32,8 +32,8 @@ module.exports.routes = {
   *                                                                          *
   ***************************************************************************/
 
-  'post /' : 'StampingController.receive'
-
+  'post /' : 'StampingController.receive',
+  'post /remote' : 'StampingController.Remote'
   /***************************************************************************
   *                                                                          *
   * Custom routes here...                                                    *
