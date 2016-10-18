@@ -31,3 +31,19 @@ sails lift
 ```
 
 This will start the application on HTTP port 1337. Posts are done to the root of the server itself. No other routes needed. Please refer to sails.js' documentation on how to configure SSL / the framework's general functionality if you're looking at configuring it differently. If you're just interested in running the application itself, Docker images are being created
+
+#Usage
+
+There are now two endpoints in the application. Root and /Remote. 
+
+##Root
+When posting to the root of the application, Rowland expects a multipart encoded form post similar to how you would normally do a a file upload. It should have two components:
+
+* The file template with a name of "form"
+* The JSON key value pairs with the name of "data"
+
+##Remote
+I realized that some languages really suck at doing back-end multi-part form encoding, or properly naming components of the request body. For this reason we have the remote endpoint. This accepts two things:
+
+* filelocation : This is the URL for node to download the file
+* data : The key value pairs to stamp onto the document. 
